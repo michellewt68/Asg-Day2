@@ -27,12 +27,12 @@ const loadProducts= async()=>{
 const displayProducts = products =>{
     const string= products.map(product=>{
         return `
-        <li>
+        <div class="item">
             <h2>${product.name}</h2>
             <img src="${product.image_link}"></img><br>
             <span>$${product.price}</span>
             <p>${product.description}</p>
-        </li>`
+        </div>`
     })
     .join('')
     productsList.innerHTML=string

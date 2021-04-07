@@ -58,22 +58,23 @@ nav ul .search-icon .icon span{
   color: #222222;
   font-size: 18px;
 }
-nav ul li.btn span.show:before{
-  content: '\f00d';
+
+.brand{
+  text-align: left;
 }
 
 .content{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
   text-align: center;
   width: 100%;
-  padding: 0 40px;
+  /* padding: 0 40px; */
   z-index: -2;
 }
 
-.content .text{
+.brand{
   font-size: 40px;
   font-weight: 800;
   padding: 5px 0;
@@ -81,6 +82,23 @@ nav ul li.btn span.show:before{
 }
 .content .p{
   font-size: 28px;
-  font-weight: 600;
+  /* font-weight: 600; */
   color: #202020;
 } 
+
+.p {
+  display: grid;
+  width: 60%;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  row-gap: 20px;
+}
+
+.item{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
