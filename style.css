@@ -60,17 +60,13 @@ nav ul .search-icon .icon span{
 }
 
 .brand{
-  text-align: left;
+  text-align: center;
 }
 
 .content{
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
   text-align: center;
   width: 100%;
-  /* padding: 0 40px; */
   z-index: -2;
 }
 
@@ -82,7 +78,6 @@ nav ul .search-icon .icon span{
 }
 .content .p{
   font-size: 28px;
-  /* font-weight: 600; */
   color: #202020;
 } 
 
@@ -96,9 +91,15 @@ nav ul .search-icon .icon span{
 }
 
 .item{
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color:rgba(0, 0, 0, 0);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  border-style: outset;
+  padding: 35px;
   font-size: 20px;
   text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
 }
